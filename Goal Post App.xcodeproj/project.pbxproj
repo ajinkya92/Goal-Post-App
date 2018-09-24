@@ -56,15 +56,47 @@
 		172053582158EFA300E34884 /* Goal Post App */ = {
 			isa = PBXGroup;
 			children = (
-				172053592158EFA300E34884 /* AppDelegate.swift */,
-				1720535B2158EFA300E34884 /* ViewController.swift */,
-				1720535D2158EFA300E34884 /* Main.storyboard */,
-				172053632158EFA700E34884 /* Assets.xcassets */,
-				172053652158EFA700E34884 /* LaunchScreen.storyboard */,
+				172053712158EFF800E34884 /* Supporting Files */,
+				172053722158F03000E34884 /* Extensions */,
+				172053702158EFE900E34884 /* View */,
+				1720536E2158EFC800E34884 /* Controller */,
 				172053682158EFA700E34884 /* Info.plist */,
 				172053602158EFA300E34884 /* Goal_Post_App.xcdatamodeld */,
 			);
 			path = "Goal Post App";
+			sourceTree = "<group>";
+		};
+		1720536E2158EFC800E34884 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1720535B2158EFA300E34884 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		172053702158EFE900E34884 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1720535D2158EFA300E34884 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		172053712158EFF800E34884 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				172053592158EFA300E34884 /* AppDelegate.swift */,
+				172053632158EFA700E34884 /* Assets.xcassets */,
+				172053652158EFA700E34884 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		172053722158F03000E34884 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
